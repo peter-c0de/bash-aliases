@@ -31,7 +31,11 @@ $ . .bashrc
 ## Links:
 
 https://linuxize.com/post/how-to-create-bash-aliases/
+
 https://opensource.com/article/19/7/bash-aliases
+
 https://stackoverflow.com/questions/7131670/make-a-bash-alias-that-takes-a-parameter
+
 https://askubuntu.com/questions/17536/how-do-i-create-a-permanent-bash-alias
+
 https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-5.html
