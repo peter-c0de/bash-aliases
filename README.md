@@ -11,6 +11,9 @@
 github_password="password1234"
 alias ghp='echo $github_code'
 
+# Testing Parameters/Arguments
+echoTest(){ echo $1 $2 $3; }
+
 # Download YT Mp3:
 downloadMp3(){ yt-dlp -x --audio-format mp3 $1; }
 
