@@ -8,8 +8,10 @@
 ### My Aliases ###
 
 # Github Token:
+# Requirements: xsel
+# echo -n: exclude the "\n"
 github_password="password1234"
-alias ghp='echo $github_code'
+alias ghp='echo $github_code; echo -n $github_password | xsel -b'
 
 # Testing Parameters/Arguments
 echoTest(){ echo $1 $2 $3; }
