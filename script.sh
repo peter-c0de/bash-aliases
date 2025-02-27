@@ -6,6 +6,9 @@
 github_password="password1234"
 alias ghp='echo $github_code; echo -n $github_password | xsel -b'
 
+# Opens Current Directory in VSCode
+alias vsc0de='code .; exit'
+
 # Testing Parameters/Arguments
 echoTest(){ echo $1 $2 $3; }
 
