@@ -19,5 +19,17 @@ sudo apt-get install ffmpeg
 # image manipulation programs -- binaries
 sudo apt-get install imagemagick
 
+# poppler-utils
+# PDF utilities (based on Poppler)
+sudo apt-get install poppler-utils
+
+
+
+
+
+
+
+
+
 
 
