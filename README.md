@@ -11,7 +11,8 @@
 # Requirements: xsel
 # echo -n: exclude the "\n"
 github_password="password1234"
-alias ghp='echo $github_code; echo -n $github_password | xsel -b'
+proverbs5_3="Trust in the Lord with all your heart and lean not on your own understanding."
+alias ghp='echo $proverbs5_3; echo -n $github_password | xsel -b'
 
 # Opens Current Directory in VSCode
 alias vsc0de='code .; exit'
