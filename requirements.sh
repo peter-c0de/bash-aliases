@@ -27,7 +27,9 @@ sudo apt-get install poppler-utils
 # PDF utilities (based on Poppler)
 sudo apt-get install pdftoppm
 
-
+# xpdf
+# Motif-based PDF reader using the Poppler library
+sudo apt-get install xpdf
 
 
 
