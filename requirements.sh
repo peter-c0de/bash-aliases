@@ -15,5 +15,9 @@ pip3 install --upgrade yt-dlp
 # a suite of libraries and programs for handling video, audio, and other multimedia files and streams.
 sudo apt-get install ffmpeg
 
+# imagemagick
+# image manipulation programs -- binaries
+sudo apt-get install imagemagick
+
 
 
