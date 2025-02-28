@@ -23,8 +23,9 @@ sudo apt-get install imagemagick
 # PDF utilities (based on Poppler)
 sudo apt-get install poppler-utils
 
-
-
+# pdftoppm
+# PDF utilities (based on Poppler)
+sudo apt-get install pdftoppm
 
 
 
