@@ -8,7 +8,7 @@ proverbs5_3="Trust in the Lord with all your heart and lean not on your own unde
 alias ghp='echo $proverbs5_3; echo -n $github_password | xsel -b'
 
 # Opens Current Directory in VSCode
-# Requirements: yt-dlp
+# Requirements: VSCode
 alias vsc0de='code .; exit'
 
 # Get the Directories Sizes and Order them Descendingly
