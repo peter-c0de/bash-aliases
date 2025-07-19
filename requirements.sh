@@ -31,6 +31,10 @@ sudo apt-get install pdftoppm
 # Motif-based PDF reader using the Poppler library
 sudo apt-get install xpdf
 
+# git
+# git - fast, scalable, distributed revision control system
+sudo apt-get install git
+
 
 
 
