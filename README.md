@@ -37,6 +37,10 @@ mergeMp4Mp3(){ ffmpeg -i $1 -i $2 -map 0:v -map 1:a -c:v copy -shortest $3; }
 # PDF to PNGs:
 # Requirements: imagemagick, poppler-utils, pdftoppm
 pdf2png(){ pdftoppm -png $1 png; }
+
+# Download: Peter CODE's Bootstrap Template
+# Requirements: git
+alias bs-temp='git clone https://github.com/peter-c0de/bs-temp; cd bs-temp; bash clean.sh' 
 ```
 
 2. Re-run the .bashrc
