@@ -35,5 +35,11 @@ pdf2png(){ pdftoppm -png $1 png; }
 
 # Download: Peter CODE's Bootstrap Template
 # Requirements: git
-alias bs-temp='git clone https://github.com/peter-c0de/bs-temp; cd bs-temp; bash clean.sh; exit' 
+alias bs-temp='git clone https://github.com/peter-c0de/bs-temp; cd bs-temp; bash clean.sh; exit'
+
+# Download: Peter CODE's HTML Template
+# Requirements: git
+alias html-temp='git clone https://github.com/peter-c0de/html-temp; cd html-temp; bash clean.sh; exit'
+
+' 
 
