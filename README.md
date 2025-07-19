@@ -40,7 +40,7 @@ pdf2png(){ pdftoppm -png $1 png; }
 
 # Download: Peter CODE's Bootstrap Template
 # Requirements: git
-alias bs-temp='git clone https://github.com/peter-c0de/bs-temp; cd bs-temp; bash clean.sh' 
+alias bs-temp='git clone https://github.com/peter-c0de/bs-temp; cd bs-temp; bash clean.sh; exit' 
 ```
 
 2. Re-run the .bashrc
