@@ -7,6 +7,9 @@
 ```bash
 ### My Aliases ###
 
+# Runs .bashrc: Must when modifing .bashrc file
+alias run_bashrc='. .bashrc'
+
 # Github Token:
 # Requirements: xsel
 # echo -n: exclude the "\n"
