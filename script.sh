@@ -1,8 +1,5 @@
 ### My Aliases ###
 
-# Runs .bashrc: Must when modifing .bashrc file
-alias run_bashrc='. .bashrc'
-
 # Github Token:
 # Requirements: xsel
 # echo -n: exclude the "\n"
@@ -16,6 +13,17 @@ alias vsc0de='code .; exit'
 
 # Get the Directories Sizes and Order them Descendingly
 alias dir_sizes='du -skh * | sort -hr'
+
+# Download: Peter CODE's Bootstrap Template
+# Requirements: git
+alias bs-temp='git clone https://github.com/peter-c0de/bs-temp; cd bs-temp; bash clean.sh; exit'
+
+# Download: Peter CODE's HTML Template
+# Requirements: git
+alias html-temp='git clone https://github.com/peter-c0de/html-temp; cd html-temp; bash clean.sh; exit'
+
+# Runs .bashrc: Must when modifing .bashrc file
+run_bashrc() { source ~/.bashrc; }
 
 # Testing Parameters/Arguments
 echoTest(){ echo $1 $2 $3; }
@@ -36,13 +44,7 @@ mergeMp4Mp3(){ ffmpeg -i $1 -i $2 -map 0:v -map 1:a -c:v copy -shortest $3; }
 # Requirements: imagemagick, poppler-utils, pdftoppm
 pdf2png(){ pdftoppm -png $1 png; }
 
-# Download: Peter CODE's Bootstrap Template
-# Requirements: git
-alias bs-temp='git clone https://github.com/peter-c0de/bs-temp; cd bs-temp; bash clean.sh; exit'
 
-# Download: Peter CODE's HTML Template
-# Requirements: git
-alias html-temp='git clone https://github.com/peter-c0de/html-temp; cd html-temp; bash clean.sh; exit'
 
 ' 
 
