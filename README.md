@@ -5,6 +5,27 @@
 1. Add the following code to the .bashrc in the home directory
 
 ```bash
+### My Aliases List ###
+aliases_list="
+\e[31mAliases ###\e[0m
+ghp - Trust in the Lord with all your heart and lean not on your own understanding
+vsc0de - opens VSCode
+dir_sizes - shows directories sizes
+html-temp - clones html template
+bs-temp - clones bootstrap template
+
+\e[31mFunctions ###\e[0m
+run_bashrc() - runs .bashrc
+echoTest() - testing parameters/arguments
+downloadMp3(youtubelink) - download .mp3 from youtube using yt-dlp
+downloadMp4(youtubelink) - download .mp4 from youtube using yt-dlp
+mergeMp4Mp3(mp4,mp3) - merge mp4  with new mp3
+pdf2png(pdf) - pdf to pngs
+"
+
+# Show All User Aliases:
+alias as_list='echo -e "$aliases_list"'
+
 ### My Aliases ###
 
 # Github Token:
@@ -21,13 +42,13 @@ alias vsc0de='code .; exit'
 # Get the Directories Sizes and Order them Descendingly
 alias dir_sizes='du -skh * | sort -hr'
 
-# Download: Peter CODE's Bootstrap Template
-# Requirements: git
-alias bs-temp='git clone https://github.com/peter-c0de/bs-temp; cd bs-temp; bash clean.sh; exit' 
-
 # Download: Peter CODE's HTML Template
 # Requirements: git
 alias html-temp='git clone https://github.com/peter-c0de/html-temp; cd html-temp; bash clean.sh; exit'
+
+# Download: Peter CODE's Bootstrap Template
+# Requirements: git
+alias bs-temp='git clone https://github.com/peter-c0de/bs-temp; cd bs-temp; bash clean.sh; exit' 
 
 # Runs .bashrc: Must when modifing .bashrc file
 run_bashrc() { source ~/.bashrc; }
