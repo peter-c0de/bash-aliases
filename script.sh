@@ -16,7 +16,7 @@ mergeMp4Mp3(mp4,mp3) - merge mp4  with new mp3
 pdf2png(pdf) - pdf to pngs
 "
 
-# Show All User Aliases:
+# Show All of the User's Aliases:
 alias as_list='echo -e "$aliases_list"'
 
 ### My Aliases ###
