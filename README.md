@@ -21,6 +21,7 @@ downloadMp3(youtubelink) - download .mp3 from youtube using yt-dlp
 downloadMp4(youtubelink) - download .mp4 from youtube using yt-dlp
 mergeMp4Mp3(mp4,mp3) - merge mp4  with new mp3
 pdf2png(pdf) - pdf to pngs
+wav2mp3() - convert all WAV files in current directory to MP3
 "
 
 # Show All of the User's Aliases:
@@ -69,6 +70,16 @@ mergeMp4Mp3(){ ffmpeg -i $1 -i $2 -map 0:v -map 1:a -c:v copy -shortest $3; }
 # PDF to PNGs:
 # Requirements: imagemagick, poppler-utils, pdftoppm
 pdf2png(){ pdftoppm -png $1 png; }
+
+# WAV to MP3
+# Requirements: ffmpeg
+wav2mp3() {
+    for f in *.wav; do
+        [ -f "$f" ] || continue
+        filename="${f%.*}"
+        ffmpeg -i "$f" -codec:a libmp3lame -qscale:a 2 "${filename}.mp3"
+    done
+}
 ```
 
 2. Re-run the .bashrc
