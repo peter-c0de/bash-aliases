@@ -36,13 +36,17 @@ alias vsc0de='code .; exit'
 # Get the Directories Sizes and Order them Descendingly
 alias dir_sizes='du -skh * | sort -hr'
 
-# Download: Peter CODE's Bootstrap Template
-# Requirements: git
-alias bs-temp='git clone https://github.com/peter-c0de/bs-temp; cd bs-temp; bash clean.sh; exit'
-
 # Download: Peter CODE's HTML Template
 # Requirements: git
 alias html-temp='git clone https://github.com/peter-c0de/html-temp; cd html-temp; bash clean.sh; exit'
+
+# Download: Peter CODE's JavaSCript Template
+# Requirements: git
+alias js-temp='git clone https://github.com/peter-c0de/js-temp; cd js-temp; bash clean.sh; exit'
+
+# Download: Peter CODE's Bootstrap Template
+# Requirements: git
+alias bs-temp='git clone https://github.com/peter-c0de/bs-temp; cd bs-temp; bash clean.sh; exit'
 
 # Runs .bashrc: Must when modifing .bashrc file
 run_bashrc() { source ~/.bashrc; }
