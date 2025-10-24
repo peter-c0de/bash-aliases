@@ -65,7 +65,7 @@ echoTest(){ echo $1 $2 $3; }
 downloadMp3(){ yt-dlp -x --audio-format mp3 $1; }
 
 # Download YT Mp4:
-downloadMp4(){ yt-dlp --format mp4 $1; 
+downloadMp4(){ yt-dlp --format mp4 $1; }
 
 # Merge MP4 with New Mp3:
 # Requirements: ffmpeg
