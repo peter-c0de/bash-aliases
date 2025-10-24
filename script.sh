@@ -10,6 +10,7 @@ bs-temp - clones bootstrap template
 \e[31mFunctions ###\e[0m
 run_bashrc() - runs .bashrc
 echoTest() - testing parameters/arguments
+updateYTDLP() - updates yt-dlp
 downloadMp3(youtubelink) - download .mp3 from youtube using yt-dlp
 downloadMp4(youtubelink) - download .mp4 from youtube using yt-dlp
 mergeMp4Mp3(mp4,mp3) - merge mp4  with new mp3
