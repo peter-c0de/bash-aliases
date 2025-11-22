@@ -27,6 +27,7 @@ wav2mp3() - convert all WAV files in current directory to MP3
 \e[31mReact ###\e[0m
 reactVite - creates new vite
 reactRun - runs react local server
+reactIghp - install gh-pages'
 "
 
 # Show All of the User's Aliases:
@@ -96,6 +97,7 @@ wav2mp3() {
 # REACT Aliases
 alias reactVite='npx create-vite@latest'
 alias reactRun='npm run dev'
+alias reactIghp='npm install --save-dev gh-pages'
 ```
 
 2. Re-run the .bashrc
