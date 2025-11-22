@@ -23,6 +23,9 @@ downloadMp4(youtubelink) - download .mp4 from youtube using yt-dlp
 mergeMp4Mp3(mp4,mp3) - merge mp4  with new mp3
 pdf2png(pdf) - pdf to pngs
 wav2mp3() - convert all WAV files in current directory to MP3
+
+\e[31mReact ###\e[0m
+reactVite - creates new vite
 "
 
 # Show All of the User's Aliases:
@@ -88,6 +91,9 @@ wav2mp3() {
         ffmpeg -i "$f" -codec:a libmp3lame -qscale:a 2 "${filename}.mp3"
     done
 }
+
+# REACT Aliases
+alias reactVite='npx create-vite@latest'
 ```
 
 2. Re-run the .bashrc
