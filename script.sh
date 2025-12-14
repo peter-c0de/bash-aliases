@@ -61,6 +61,10 @@ run_bashrc() { source ~/.bashrc; }
 # Testing Parameters/Arguments
 echoTest(){ echo $1 $2 $3; }
 
+# Updates yt-dlp
+# Requirements: yt-dlp
+updateYTDLP(){ pip3 install --upgrade yt-dlp;  }
+
 # Download YT Mp3:
 # Requirements: yt-dlp
 downloadMp3(){ yt-dlp -x --audio-format mp3 $1; }
