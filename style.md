@@ -1,3 +1,8 @@
+
+Modifed: style.md
+
+###
+
 Added: REACT Alias to deploy project
 Modified: script.sh
 
