@@ -95,6 +95,15 @@ wav2mp3() {
     done
 }
 
+# MP4 to MP3
+# Requirements: ffmpeg
+mp42mp3() {
+    for file in *.mp4; do
+        [ -e "$file" ] || continue  # skip if no mp4 files
+        ffmpeg -i "$file" -q:a 0 -map a "${file%.mp4}.mp3"
+    done
+}
+
 # REACT Aliases
 alias reactVite='npx create-vite@latest'
 alias reactRun='npm run dev'
