@@ -28,7 +28,7 @@ Modified: script.sh
 
 ###
 
-added: wav2mp3 to as_list
+Added: wav2mp3 to as_list
 Modified: README.md
 
 
