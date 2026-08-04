@@ -102,6 +102,15 @@ mp42mp3() {
     done
 }
 
+# WEBM to MP3
+# Requirements: ffmpeg
+webm2mp3() {
+    for file in *.webm; do
+        [ -e "$file" ] || continue  # skip if no webm files
+        ffmpeg -i "$file" -codec:a libmp3lame -qscale:a 2 "${file%.webm}.mp3"
+    done
+}
+
 # REACT Aliases
 alias reactVite='npx create-vite@latest'
 alias reactRun='npm run dev'
