@@ -75,6 +75,13 @@ downloadMp3(){ yt-dlp -x --audio-format mp3 $1; }
 # Requirements: yt-dlp
 downloadMp4(){ yt-dlp --format mp4 $1; }
 
+# Download YT MP4 720:
+# Requirements: yt-dlp
+downloadMp4720() {
+    yt-dlp -f "bv[vcodec^=avc1][height<=720]+ba/b[vcodec^=avc1][height<=720]" \
+    --merge-output-format mp4 "$1"
+}
+
 # Merge MP4 with New Mp3:
 # Requirements: ffmpeg
 mergeMp4Mp3(){ ffmpeg -i $1 -i $2 -map 0:v -map 1:a -c:v copy -shortest $3; }
