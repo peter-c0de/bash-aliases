@@ -2,6 +2,11 @@
 
 Modifed: style.md
 
+### NEVER FORGET TO ADD THE SYNC DATE ###
+
+SYNC Date: November 22, 2026
+Modified: script.sh
+
 ### Alias
 
 Added: REACT Alias to deploy project
