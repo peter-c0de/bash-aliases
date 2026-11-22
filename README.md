@@ -26,6 +26,7 @@ pdf2png(pdf) - pdf to pngs
 wav2mp3() - convert all WAV files in current directory to MP3
 mp42mp3() - convert all MP4 files in current directory to MP3
 webm2mp3() - convert all WEBM files in current directory to MP3
+mkv2mp3() - convert all MKV files in current directory to MP3
 
 \e[31mReact ###\e[0m
 reactVite - creates new vite
