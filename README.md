@@ -1,5 +1,7 @@
 # bash-aliases
 
+## SYNC Date: November 22, 2026
+
 ## Steps:
 
 1. Add the following code to the .bashrc in the home directory
