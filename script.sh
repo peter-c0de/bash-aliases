@@ -119,6 +119,15 @@ webm2mp3() {
     done
 }
 
+# MKV to MP3
+# Requirements: ffmpeg
+mkv2mp3() {
+    for file in *.mkv; do
+        [ -e "$file" ] || continue  # skip if no mkv files
+        ffmpeg -i "$file" -codec:a libmp3lame -qscale:a 2 "${file%.mkv}.mp3"
+    done
+}
+
 # REACT Aliases
 alias reactVite='npx create-vite@latest'
 alias reactRun='npm run dev'
