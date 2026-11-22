@@ -7,6 +7,11 @@ Modifed: style.md
 SYNC Date: November 22, 2026
 Modified: script.sh
 
+###
+
+SYNC Date: November 22, 2026
+Modified: README.md
+
 ### Alias
 
 Added: REACT Alias to deploy project
